@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+body{
+font-family: 'Arimo',sans-serif;
+margin: 0;
+padding: 0;
+}
+
+/* part header */
+
+header{
+display:flex;
+justify-content: space-between;
+flex-wrap:wrap;
+margin: 10px 20px;
+}
+
+header.left{
+display:flex;
+flex-wrap:wrap;
+}
+
+header.right{
+display:flex;
+flex-wrap:wrap;
+}
+
+
+header p{
+
+margin-right: 10px;
+color: #787878;
+cursor:pointer;
+}
+
+header p:hover{
+color: #000;
+}
+
+header .right svg{
+height: 30px;
+width: 30px;
+margin-right: 10px;
+cursor: pointer;
+}  
+
+header .right p.user{
+font-size: 30px;
+margin-top: 10px;
+color: #595959;
+}
+
+/* Header end */
+
+.main{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 200px;
+}
+
+
+.main .form-group{
+display: flex;
+flex-direction: column;
+width: 40%;
+}
+
+.main .form-group input{
+margin-top: 20px;
+padding: 15px;
+border-radius: 80px;
+border: 1px solid #d1d1d1;
+outline: none;
+}
+
+.main .form-group input:hover,.main .form-group input:focus{
+-webkit-box-shadow: -59px 76px 152px 19px rgba(0,0,0,0.46);
+-moz-box-shadow: -59px 76px 152px 19px rgba(0,0,0,0.46);
+box-shadow: -59px 76px 152px 19px rgba(0,0,0,0.46);
+}
+
+.main .form-group label i{
+float:right;
+font-size: 20px;
+ margin-top: -35px;
+margin-right: -15px;
+position: relative;
+ cursor: pointer;
+color: rgb(6, 6, 6);
+
+}
+
+.main .buttons{
+margin-top: 40px;
+
+}
